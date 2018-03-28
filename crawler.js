@@ -7,8 +7,8 @@ let counter = 0;
 const pagesToVisit = [];
 const pagesVisited = [];
 
-const DOMAIN = '/*domain.com*/';
-const STARTURL = '/*https://www.domain.com*/';
+const DOMAIN = 'domain.com';
+const STARTURL = 'https://www.domain.com';
 
 const fileToWrite = 'linkit.txt';
 
