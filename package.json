@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "child-process": "^1.0.2",
+    "child_process": "^1.0.2",
     "fs": "0.0.1-security",
     "mkdirp": "^0.5.1",
     "puppeteer": "^1.2.0",
