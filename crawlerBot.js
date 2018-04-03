@@ -2,7 +2,7 @@
 const TeleBot = require("telebot");
 const { fork } = require('child_process');
 const child = fork('./worker.js');
-const bot = new TeleBot('541700992:AAFQHR8krVW_7Rc-Iv41G5KzYNj1xJ1bA2I');
+const bot = new TeleBot('');
 
 bot.on('/start', (msg) => {
    msg.reply.text('Format: "password:######;domain:domain.com;start_page:www.domain.com;ignore_paths:path1,path2,path3;" \n ignore_paths not necessary.'); 
